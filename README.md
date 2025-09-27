@@ -9,19 +9,19 @@ if p != 'yes' :
 print('okey  let´s play ☺️ ! ')
 
 a = input(' Why do we using the camera ?')
-if a == 'for taking pictures' :
+if a.lower()== 'for taking pictures' :
     print('correct.')
 else :
     print('incorrect !')
 
 a = input(' Why do we using İnshot app ?')
-if a == 'for editing videos and photos ' :
+if a.lower()== 'for editing videos and photos ' :
     print('correct.')
 else :
     print('incorrect !')
     
 a = input(' Why do we using wattsapp ?')
-if a == 'for chatting with others ' :
+if a.lower()== 'for chatting with others ' :
     print('correct.')
 else :
     print('incorrect !')
